@@ -1,11 +1,15 @@
 <script setup lang="ts">
-
+import HeaderWrapper from './components/HeaderWrapper.vue';
 </script>
 
 <template>
-  <div>
-    <h1>Hello</h1>
+  <div class="app">
+    <HeaderWrapper />
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.app {
+  background-color: #f8f3eb;
+}
+</style>
